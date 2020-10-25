@@ -2,16 +2,16 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter MDX Basic',
+    title: 'Gatsby Starter MDX Basic + Medium article MDX challenge',
     description:
-      'Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.',
+      'Today I am finding out the difference between generating files from markdown within the pages folder and generating files from markdown with the newly created content and markdown-styles folder as components. I cannot fully remember the mechanics of using either so trying both.',
     author: '@chrisbiscardi',
   },
   plugins: [
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        defaultLayouts: { default: path.resolve('./src/components/layout.js') },
+        extensions: [`.mdx`, `.md`],
       },
     },
     'gatsby-plugin-react-helmet',
