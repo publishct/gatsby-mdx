@@ -1,27 +1,13 @@
-# Gatsby Starter MDX Basic
+# Composing Documents with MDX - A Gatsby Demo Project
 
-View this starter [live on Netlify](https://gatsby-starter-mdx-basic.netlify.com/)
+### This project uses React UI components and MDX content components to compose and style a markdown document.
 
-This starter build MDX support into the
-[gatsby-default-starter](https://github.com/gatsbyjs/gatsby-starter-default). Its
-README also applies here.
+### All UI and content components have been published to [Bit](https://bit.dev/eden/markdown-components), for future reuse.
 
-1. Create a new Gatsby site using this starter
+![](https://user-images.githubusercontent.com/49904302/85626806-3fbd7b00-b676-11ea-8805-f962c256c33d.png)
 
-```sh
-gatsby new my-site https://github.com/ChristopherBiscardi/gatsby-starter-mdx-basic
-```
+### [Read the blog post here.](https://blog.bitsrc.io/composing-documents-with-mdx-markdown-for-the-component-era-ed9d87142703)
 
-2. Install dependencies
+### [See the project on Nelify here.](https://mdx-gatsby-demo.netlify.app/)
 
-```sh
-yarn
-```
-
-3. Run the develop script
-
-```sh
-yarn develop
-```
-
-4. Edit Page 2 in `src/pages/page-2.mdx`
+### [Explore the component collection on Bit, here.](https://bit.dev/eden/markdown-components)
