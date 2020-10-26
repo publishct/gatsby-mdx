@@ -12,6 +12,7 @@ import CodeBlock from '../components/markdown-styles/CodeBlock'
 // import markdown components
 import ParagraphDefinition from '../components/content/ParagraphDefinition.md'
 import ParagraphDefinitionHTML from '../components/content/ParagraphDefinitionHTML.md'
+import StanzaDefinition from '../components/content/StanzaDefinition.md'
 
 // assign a custom component to (some) markdown elements
 // this object will serve as the props for the 'MDXProvider' that will pass it down through the component tree
@@ -28,6 +29,7 @@ const Document = () => {
         <MDXProvider components={components}>
             <ParagraphDefinition />
             <ParagraphDefinitionHTML />
+            <StanzaDefinition />
         </MDXProvider>
     )
 }
