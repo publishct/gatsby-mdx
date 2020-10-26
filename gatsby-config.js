@@ -2,18 +2,12 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter MDX Basic + Medium article MDX challenge',
+    title: 'Gatsby Starter MDX Basic + Medium article Gatsby MDX-Demo challenge',
     description:
       'Today I am finding out the difference between generating files from markdown within the pages folder and generating files from markdown with the newly created content and markdown-styles folder as components. I cannot fully remember the mechanics of using either so trying both.',
-    author: '@chrisbiscardi',
+    author: 'developercynthia@gmail.com',
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        extensions: [`.mdx`, `.md`],
-      },
-    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
@@ -29,6 +23,12 @@ module.exports = {
         path: `${__dirname}/src/pages`
       }
     },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
+      },
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -43,6 +43,7 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-styled-components`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
